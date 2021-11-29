@@ -1,0 +1,16 @@
+body {
+    position: relative;
+}
+
+#background {
+    position: absolute;
+    z-index: -10;
+    overflow-y: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    padding: 64px;
+    opacity: .3;
+}
